@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTransformationsUserConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ServerName>hantal-dev</ServerName>
+        <PathOnServer>/SSISDB/ImportFiles/ImportWDS-Sales</PathOnServer>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2020-02-18T21:11:59.3153412Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{0fd37bc4-0dd4-4385-afec-e7a480e875d3}</Id>
+            <Name>Project::WDS_Password</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/0CWfjEMnUust9jhh/WvuAAAAAACAAAAAAADZgAAwAAAABAAAADHX6WKtU7TqfpyzgkrkEo3AAAAAASAAACgAAAAEAAAAIDBiADb8UkHoueIVk747LoIAAAA+/5PYDL423EUAAAAN4zIYWiodExXcCTQ+nzNhmmrEQg=</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Prod</Name>
+      <Options>
+        <ServerName>hantal-prod</ServerName>
+        <PathOnServer>/SSISDB/ImportFiles/ImportWDS-Sales</PathOnServer>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2020-02-18T21:11:59.3153412Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{0fd37bc4-0dd4-4385-afec-e7a480e875d3}</Id>
+            <Name>Project::WDS_Password</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/0CWfjEMnUust9jhh/WvuAAAAAACAAAAAAADZgAAwAAAABAAAADNW7qlwlenw3XnP+HvSCGSAAAAAASAAACgAAAAEAAAAPgpplGATbzFDlR6jHU0T90IAAAAwTc0vAUP8bwUAAAAi4I0sHWbUAUguy0eaoTFwphpksw=</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Local</Name>
+      <Options>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2020-02-18T21:11:59.3163388Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{0fd37bc4-0dd4-4385-afec-e7a480e875d3}</Id>
+            <Name>Project::WDS_Password</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/0CWfjEMnUust9jhh/WvuAAAAAACAAAAAAADZgAAwAAAABAAAAAzu95okARPavFt6Q3jGjafAAAAAASAAACgAAAAEAAAAPEvQF/wF/hSC4vZopgcL44IAAAAQUFN8qB3rCIUAAAA5xWmkOl004ADwsjuOAve0auRkoo=</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>LocalToProd</Name>
+      <Options>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2020-02-18T21:11:59.3163388Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{0fd37bc4-0dd4-4385-afec-e7a480e875d3}</Id>
+            <Name>Project::WDS_Password</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/0CWfjEMnUust9jhh/WvuAAAAAACAAAAAAADZgAAwAAAABAAAABGoQERUHUM8NdBclr3m4PPAAAAAASAAACgAAAAEAAAABwt2jKpfhE9bhvNf5KFu4MIAAAA6JGAgbCE/jQUAAAAOSeG+ReUaCVaCcWyDLBQuheqAWg=</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+  </Configurations>
+</DataTransformationsUserConfiguration>

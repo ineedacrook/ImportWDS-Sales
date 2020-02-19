@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ImportWDS-Sales", "ImportWDS-Sales\ImportWDS-Sales.dtproj", "{07B2C011-B257-448C-92BC-CE2DD8E3B24D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+		Local|Default = Local|Default
+		LocalToProd|Default = LocalToProd|Default
+		Prod|Default = Prod|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.Development|Default.ActiveCfg = Development
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.Development|Default.Build.0 = Development
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.Local|Default.ActiveCfg = Local
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.Local|Default.Build.0 = Local
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.LocalToProd|Default.ActiveCfg = LocalToProd
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.LocalToProd|Default.Build.0 = LocalToProd
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.Prod|Default.ActiveCfg = Prod
+		{07B2C011-B257-448C-92BC-CE2DD8E3B24D}.Prod|Default.Build.0 = Prod
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5554EB27-E7D2-457B-9302-F26A83483D77}
+	EndGlobalSection
+EndGlobal

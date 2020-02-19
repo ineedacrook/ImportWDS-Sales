@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
+  DTS:ObjectName="WDS"
+  DTS:DTSID="{17F6F2DF-31EE-4A0C-9AA7-D5FBAE39D442}"
+  DTS:CreationName="ODBC">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::WDS_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::WDS_Password]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="uid=powerbi;Dsn=US PEOD;">
+      <DTS:Password
+        DTS:Name="Pwd"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/0CWfjEMnUust9jhh/WvuAAAAAACAAAAAAADZgAAwAAAABAAAABjc0nSDbhaBm+bCV8MuMheAAAAAASAAACgAAAAEAAAAAAOpM5gUPt38T/uBDjkdAFwAAAAxmGEh7MSlbggioftePyx91bqH3pvsAQwQ1ebzaYufipn+M/DQDkhhPrZw+asrW12F8W+9g9QVGgYTVADlCaQ6ke8WNXt3UGuZS+HPwYYBh0qICguHflT721hnNAyh8dftoyhlassJqeRbu3RLUbeBBQAAADnvRk6vc+h8+t5CjWWkOOdhTiAmA==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
